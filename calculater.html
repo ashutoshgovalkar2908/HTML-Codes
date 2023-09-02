@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .calc {
+            background-color: rgb(192, 199, 199);
+            height: 500px;
+            width: 280px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .calc1 {
+            background-color:white;
+            margin: 7px;
+            height: 75px;
+        }
+
+        .b1 {
+            background-color: rgb(135, 126, 126);
+            border-radius: 10px;
+            height: 30px;
+            width: 68px;
+            margin: 2px;
+            padding: 8px 0px 0px 0px;
+            text-align: center;
+        }
+
+        .b2 {
+            background-color: rgb(135, 126, 126);
+            border-radius: 10px;
+            height: 39px;
+            width: 68px;
+            margin: 2px;
+            padding: 15px 0px 0px 0px;
+            text-align: center;
+        }
+
+        sup {
+            vertical-align: super;
+            font-size: smaller;
+        }
+    </style>
 </head>
-<style>
-    .calc{
-        display: flex;
-        justify-content: center;
-        height: 500px;
-        width: 325px;
-        background-color: grey;
-        border: solid black 2px;
-        border-radius: 10px;
-        
-    }
-    .head{
-        display: flex;
-        height: 100px;
-        width: 360px;
-        display: flex;
-        background-color: rgba(225, 232, 232, 0.842);
-        border: black;
-        border-radius: 9px;
-        clear:right;
-       
-    }
-    .button{
-        margin-top: 107px;
-        display: flex;
-        border: 2px;
-        height: 17px;
-        float: left;
-    
-    }
-</style>
+
 <body>
-    <div class="calc">
-    <div class="head"></div>
-<div class="button">
-   <input type="button">
+    <div class="container">
+        <div class="calc">
+            <div class="calc1">
+            </div>
+            <div class="button">
+                <div class="b1">mc</div>
+                <div class="b1">mr</div>
+                <div class="b1">m-</div>
+                <div class="b1">m+</div>
+            </div>
+            <div class="button">
+                <div class="b2">AC</div>
+                <div class="b2">&radic;x</div>
+                <div class="b2">%</div>
+                <div class="b2">/</div>
+            </div>
+            <div class="button">
+                <div class="b2">7</div>
+                <div class="b2">8</div>
+                <div class="b2">9</div>
+                <div class="b2">*</div>
+            </div>
+            <div class="button">
+                <div class="b2">4</div>
+                <div class="b2">5</div>
+                <div class="b2">6</div>
+                <div class="b2">-</div>
+            </div>
+            <div class="button">
+                <div class="b2">1</div>
+                <div class="b2">2</div>
+                <div class="b2">3</div>
+                <div class="b2">+</div>
+            </div>
+            <div class="button">
+                <div class="b2">0</div>
+                <div class="b2">.</div>
+                <div class="b2">+/-</div>
+                <div class="b2">=</div>
+            </div>
+            <div class="button">
+                <div class="b2">&pi;</div>
+                <div class="b2">X<sup>y</sup></div>
+                <div class="b2">R2</div>
+                <div class="b2">R0</div>
+            </div>
+
+
+        </div>
+
     </div>
-    
-</div>    
-    
-    
-     
-    
 
 </body>
+
 </html>
